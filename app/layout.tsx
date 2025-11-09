@@ -4,8 +4,8 @@ import "./globals.css"
 
 
 export const metadata: Metadata = {
-  title: "المدرسة السعودية للقيادة | Bio Link",
-  description: "المدرسة السعودية للقيادة - خدمات تعليم القيادة الآمنة والمهنية",
+  title: "مدرسة نوره لتعليم القيادة | Bio Link",
+  description: "مدرسة نوره لتعليم القيادة - خدمات تعليم القيادة الآمنة والمهنية",
   icons: {
     icon: [
       {

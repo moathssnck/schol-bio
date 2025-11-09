@@ -11,7 +11,7 @@ export default function TermsPage() {
             <div className="w-10 h-10 rounded-lg bg-primary text-primary-foreground flex items-center justify-center font-bold">
               ق
             </div>
-            <h1 className="font-bold text-lg text-primary">المدرسة السعودية للقيادة</h1>
+            <h1 className="font-bold text-lg text-primary">مدرسة نوره لتعليم القيادة</h1>
           </div>
           <div className="flex gap-4 items-center">
             <Link
@@ -37,7 +37,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold text-primary mb-4">1. قبول الشروط</h2>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              بالانضمام إلى المدرسة السعودية للقيادة واستخدام خدماتنا، فإنك توافق على الامتثال لجميع الشروط والأحكام
+              بالانضمام إلى مدرسة نوره لتعليم القيادة واستخدام خدماتنا، فإنك توافق على الامتثال لجميع الشروط والأحكام
               المذكورة هنا. إذا كنت لا توافق على أي من هذه الشروط، فيرجى عدم استخدام خدماتنا.
             </p>
           </section>
@@ -162,7 +162,7 @@ export default function TermsPage() {
           <div className="border-b border-border pb-8 mb-8">
             <div className="grid md:grid-cols-4 gap-8">
               <div>
-                <h4 className="font-bold text-primary mb-4">المدرسة السعودية للقيادة</h4>
+                <h4 className="font-bold text-primary mb-4">مدرسة نوره لتعليم القيادة</h4>
                 <p className="text-sm text-muted-foreground">تعليم القيادة الآمنة والمهنية بمعايير عالمية</p>
               </div>
               <div>
@@ -228,7 +228,7 @@ export default function TermsPage() {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-muted-foreground">
-            <p>&copy; 2025 المدرسة السعودية للقيادة. جميع الحقوق محفوظة.</p>
+            <p>&copy; 2025 مدرسة نوره لتعليم القيادة. جميع الحقوق محفوظة.</p>
             <p>تم إنشاؤه بمعايير Google الإعلانية الدولية</p>
           </div>
         </div>

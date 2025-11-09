@@ -49,7 +49,7 @@ export default function Home() {
             <div className="w-9 h-9 bg-gradient-to-br from-teal-500 to-emerald-400 text-white rounded-lg flex items-center justify-center font-bold shadow-sm">
               ق
             </div>
-            <h1 className="font-semibold text-sm sm:text-base text-teal-700">المدرسة السعودية للقيادة</h1>
+            <h1 className="font-semibold text-sm sm:text-base text-teal-700">مدرسة نوره لتعليم القيادة</h1>
           </div>
           <div className="flex gap-3 text-xs sm:text-sm">
             <Link href="/privacy" className="hover:text-teal-600 text-gray-600 transition-colors">
@@ -65,7 +65,7 @@ export default function Home() {
       {/* Hero */}
       <section className="max-w-5xl mx-auto px-4 py-16 sm:py-20 text-center">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-teal-700 mb-4 leading-snug">
-          مرحباً بك في <span className="text-emerald-600 gradient-text ">المدرسة السعودية للقيادة</span>
+          مرحباً بك في <span className="text-emerald-600 gradient-text ">مدرسة نوره لتعليم القيادة</span>
         </h2>
         <p className="text-sm sm:text-base text-gray-600 max-w-xl mx-auto mb-10">
           نقدم برامج تعليم القيادة الآمنة والمهنية بمعايير عالمية لضمان تجربة تعليمية متميزة وآمنة.
@@ -157,7 +157,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 py-8 text-gray-600 text-xs sm:text-sm">
           <div className="grid sm:grid-cols-4 gap-6 mb-6">
             <div>
-              <h4 className="font-semibold text-teal-700 mb-2 text-sm">المدرسة السعودية للقيادة</h4>
+              <h4 className="font-semibold text-teal-700 mb-2 text-sm">مدرسة نوره لتعليم القيادة</h4>
               <p>تعليم القيادة الآمنة والمهنية بمعايير عالمية.</p>
             </div>
             <div>
@@ -183,7 +183,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-teal-100 pt-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-gray-500">
-            <p>© 2025 المدرسة السعودية للقيادة</p>
+            <p>© 2025 مدرسة نوره لتعليم القيادة</p>
             <p>بمعايير Google الإعلانية الدولية</p>
           </div>
         </div>
