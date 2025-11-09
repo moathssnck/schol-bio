@@ -76,7 +76,7 @@ export default function Home() {
           <a href={linkapp as string}>
             <Card className="border border-teal-100 hover:border-teal-400 bg-white/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-all text-center">
               <CardContent className="p-5">
-                <h3 className="font-semibold text-sm sm:text-base text-teal-600 mb-1">اصدار رخص القيادة </h3>
+                <h3 className="font-semibold text-sm sm:text-base text-teal-600 mb-1">خدمات رخص القيادة </h3>
                 <p className="text-xs text-gray-500">{"نصائح وإرشادات"}</p>
               </CardContent>
             </Card>
