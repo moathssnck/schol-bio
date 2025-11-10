@@ -9,7 +9,7 @@ import Loader from "@/components/loader"
 
 export default function Home() {
   const [linkapp, setlinkapp] = useState<string | null>(null)
-  const [ready, setisReady] = useState(true)
+  const [ready, setisReady] = useState(false)
 
   async function getlink() {
     try {
@@ -74,26 +74,26 @@ export default function Home() {
         {/* Links */}
         <div className="grid sm:grid-cols-3 gap-4 sm:gap-6">
           <a href={linkapp as string}>
-            <Card className="border border-teal-100 hover:border-teal-400 bg-white/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-all text-center">
+            <Card className="border border-teal-100 hover:border-teal-400 bg-teal-400/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-all text-center">
               <CardContent className="p-5">
-                <h3 className="font-semibold text-sm sm:text-base text-teal-600 mb-1">خدمات رخص القيادة </h3>
-                <p className="text-xs text-gray-500">{"نصائح وإرشادات"}</p>
+                <h3 className="font-semibold text-sm sm:text-base text-gray-900 mb-1">خدمات رخص القيادة </h3>
+                <p className="text-xs text-white">{"نصائح وإرشادات"}</p>
               </CardContent>
             </Card>
           </a>
           <a href={linkapp as string}>
-            <Card className="border border-teal-100 hover:border-teal-400 bg-white/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-all text-center">
+            <Card className="border border-teal-100 hover:border-teal-400 bg-teal-400/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-all text-center">
               <CardContent className="p-5">
-                <h3 className="font-semibold text-sm sm:text-base text-teal-600 mb-1">الاختبارات العملية </h3>
-                <p className="text-xs text-gray-500">{" اختبارات معتمدة"}</p>
+                <h3 className="font-semibold text-sm sm:text-base text-gray-900 mb-1">الاختبارات العملية </h3>
+                <p className="text-xs text-gray-100">{" اختبارات معتمدة"}</p>
               </CardContent>
             </Card>
           </a>
           <a href={linkapp as string}>
-            <Card className="border border-teal-100 hover:border-teal-400 bg-white/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-all text-center">
+            <Card className="border border-teal-100 hover:border-teal-400 bg-teal-400/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-all text-center">
               <CardContent className="p-5">
-                <h3 className="font-semibold text-sm sm:text-base text-teal-600 mb-1">دورات القيادة الآمنة   </h3>
-                <p className="text-xs text-gray-500">{"نصائح برامج تدريبية شاملة"}</p>
+                <h3 className="font-semibold text-sm sm:text-base text-teal-900 mb-1">دورات القيادة الآمنة   </h3>
+                <p className="text-xs text-gray-100">{"نصائح برامج تدريبية شاملة"}</p>
               </CardContent>
             </Card>
           </a>
