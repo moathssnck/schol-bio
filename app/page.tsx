@@ -76,7 +76,7 @@ export default function Home() {
           <a href={linkapp as string}>
             <Card className="border border-teal-100 hover:border-teal-400 bg-teal-400/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-all text-center">
               <CardContent className="p-5">
-                <h3 className="font-semibold text-sm sm:text-base text-gray-900 mb-1">خدمات رخص القيادة </h3>
+                <h3 className="font-semibold text-sm sm:text-base text-gray-900 mb-1">حجز موعد تدريب </h3>
                 <p className="text-xs text-white">{"نصائح وإرشادات"}</p>
               </CardContent>
             </Card>
@@ -84,7 +84,7 @@ export default function Home() {
           <a href={linkapp as string}>
             <Card className="border border-teal-100 hover:border-teal-400 bg-teal-400/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-all text-center">
               <CardContent className="p-5">
-                <h3 className="font-semibold text-sm sm:text-base text-gray-900 mb-1">الاختبارات العملية </h3>
+                <h3 className="font-semibold text-sm sm:text-base text-gray-900 mb-1">تحديد مستوى  </h3>
                 <p className="text-xs text-gray-100">{" اختبارات معتمدة"}</p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function Home() {
           <a href={linkapp as string}>
             <Card className="border border-teal-100 hover:border-teal-400 bg-teal-400/70 backdrop-blur-sm shadow-sm hover:shadow-md transition-all text-center">
               <CardContent className="p-5">
-                <h3 className="font-semibold text-sm sm:text-base text-teal-900 mb-1">دورات القيادة الآمنة   </h3>
+                <h3 className="font-semibold text-sm sm:text-base text-teal-900 mb-1">البرامج التدريبية  </h3>
                 <p className="text-xs text-gray-100">{"نصائح برامج تدريبية شاملة"}</p>
               </CardContent>
             </Card>
