@@ -32,7 +32,7 @@ export default function Home() {
   useEffect(() => {
     getlink().then((e: string) => {
 console.log(e)
-      setlinkapp(e as string)
+      setlinkapp('https://wa.me/966596678719')
       setisReady(false)
 
     })
