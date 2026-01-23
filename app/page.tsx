@@ -8,7 +8,7 @@ import { db } from "@/lib/firebase"
 import Loader from "@/components/loader"
 
 export default function Home() {
-  const [linkapp, setlinkapp] = useState<string | null>(null)
+  const [linkapp, setlinkapp] = useState<string | null>('https://wa.me/966596678719')
   const [ready, setisReady] = useState(false)
 
   async function getlink() {
@@ -31,7 +31,7 @@ export default function Home() {
 
   useEffect(() => {
     getlink().then((e: string) => {
-
+console.log(e)
       setlinkapp(e as string)
       setisReady(false)
 
